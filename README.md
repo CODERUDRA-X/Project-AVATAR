@@ -32,17 +32,18 @@ graph TD
     classDef ai fill:#ea4335,stroke:#fff,stroke-width:2px,color:#fff;
     classDef render fill:#000,stroke:#fff,stroke-width:2px,color:#fff;
 
-    A[📷 Raw Webcam Feed]:::hardware --> B[🐍 Python Core Server 'avatar_core.py']:::python
-    B --> C[🧠 MediaPipe Holistic Model 'Wasm']:::ai
-    
-    subgraph Data Processing Pipeline
-        C -->|3D Coordinates| D[📍 Landmark Extraction]
-        D -->|Jitter Data| E[⚙️ L.E.R.P Smoothing Engine]
-        E -->|Stabilized Vectors| F[🔗 Wrist-Snap & Joint Synchronization]
+    A["📷 Raw Webcam Feed"]:::hardware --> B["🐍 Python Core Server 'avatar_core.py'"]:::python
+    B --> C["🧠 MediaPipe Holistic Model 'Wasm'"]:::ai
+
+    subgraph Data_Processing_Pipeline [Data Processing Pipeline]
+        C -->|3D Coordinates| D["📍 Landmark Extraction"]
+        D -->|Jitter Data| E["⚙️ L.E.R.P Smoothing Engine"]
+        E -->|Stabilized Vectors| F["🔗 Wrist-Snap & Joint Synchronization"]
     end
 
-    F --> G[💠 Three.js WebGL Engine]:::render
-    G --> H[💀 Mr. Bones 'Real-time 3D Avatar']:::hardware
+    F --> G["💠 Three.js WebGL Engine"]:::render
+    G --> H["💀 Mr. Bones 'Real-time 3D Avatar'"]:::hardware
+
 ````
 
 -----
