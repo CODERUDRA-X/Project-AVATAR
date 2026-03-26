@@ -42,7 +42,8 @@ graph TD
     end
 
     F --> G[💠 Three.js WebGL Engine]:::render
-    G --> H[💀 Mr. Bones 'Real-time 3D Avatar']:::hardware````
+    G --> H[💀 Mr. Bones 'Real-time 3D Avatar']:::hardware
+````
 
 -----
 
