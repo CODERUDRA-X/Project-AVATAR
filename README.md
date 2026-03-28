@@ -83,6 +83,17 @@ python avatar_core.py
 **3. System Boot:**
 The Python script will automatically map the local ports, establish the environment, and launch the 3D visualizer in your default browser. *Ensure camera permissions are granted for Neural Tracking.*
 
+---
+
+## 🗺️ Roadmap & Future Evolution (Project Vyuha Core)
+
+Project A.V.A.T.A.R serves as the neural foundation for a larger ecosystem. The long-term vision involves integrating these kinematic capabilities into Project Vyuha—a research initiative focused on decentralized coordination logic for Drone Swarm Intelligence.
+
+- [x] **Phase 1: Neural Foundation** - Real-time 3D kinematic mapping and skeleton stabilization (Mr. Bones).
+- [ ] **Phase 2: Tactical Interface** - Developing AR overlays for gesture-based drone command and control.
+- [ ] **Phase 3: Hardware Integration** - Bridging the AI vision pipeline with physical autonomous systems.
+- [ ] **Phase 4: Swarm Intelligence** - Implementing decentralized logic for multi-agent coordination.
+
 -----
 
 <div align="center">
@@ -90,5 +101,5 @@ The Python script will automatically map the local ports, establish the environm
 <i>#AiTrends2026 #FutureTech #ComputerVision #ProjectAvatar</i>
 </div>
 
-```
+
 
