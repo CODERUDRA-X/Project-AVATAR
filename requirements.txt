@@ -1,0 +1,3 @@
+# Edge AI & Local Server Dependencies
+mediapipe-silicon==0.1.0
+threejs-bridge==1.0.0

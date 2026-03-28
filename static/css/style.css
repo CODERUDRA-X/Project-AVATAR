@@ -1,0 +1,19 @@
+body { margin: 0; background-color: #111; overflow: hidden; font-family: monospace; }
+
+/* Video Feed Preview */
+.input_video {
+    position: absolute; bottom: 20px; right: 20px; 
+    width: 160px; height: 120px; transform: scaleX(-1); 
+    border: 2px solid #00ffcc; border-radius: 8px; 
+    z-index: 2; opacity: 0.6;
+}
+
+/* Heads Up Display */
+#hud {
+    position: absolute; top: 20px; left: 20px; 
+    color: #00ffcc; pointer-events: none; z-index: 10;
+}
+
+h1 { margin: 0; font-size: 1.2rem; letter-spacing: 2px; }
+p { font-size: 0.9rem; margin-top: 5px; color: #ccc; }
+.brand { font-size: 0.75rem; color: #555; margin-top: 10px; letter-spacing: 1px; }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.V.A.T.A.R | Neural Kinematics</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="hud">
+        <h1>MR. BONES (AVATAR CORE)</h1>
+        <p>Status: <span id="status">Booting Neural Net...</span></p>
+        <p class="brand">BY CODERUDRA-X</p>
+    </div>
+
+    <video class="input_video" autoplay playsinline></video>
+    <canvas id="output_canvas"></canvas>
+
+    <script src="js/engine.js"></script>
+</body>
+</html>
