@@ -43,20 +43,19 @@ graph TD
 
     F --> G[💠 Three.js WebGL Engine]:::render
     G --> H[💀 Mr. Bones 'Real-time 3D Avatar']:::hardware
-
------
+```
 
 ## ⚙️ Core Engineering Modules
 
-### 1\. Generative Code Synthesis & Hybrid Engine 💻
+### 1. Generative Code Synthesis & Hybrid Engine 💻
 
 Built utilizing AI-Augmented rapid prototyping, separating the heavy 3D rendering (WebGL) from the server logic (Python).
 
-### 2\. Kinematic Smoothing (LERP Algorithm) 📉
+### 2. Kinematic Smoothing (LERP Algorithm) 📉
 
 Raw camera data has micro-jitters. The system applies **Linear Interpolation (LERP)** to predict and smooth out the distance between the current frame and the target coordinates, making "Mr. Bones" move like a fluid digital twin.
 
-### 3\. Anatomical Snapping (Z-Axis Correction) 🎯
+### 3. Anatomical Snapping (Z-Axis Correction) 🎯
 
 Independent hand models (fingers) are algorithmically fused to the arm joints in 3D Euclidean space. The wrist coordinate $(x, y, z)$ of the hand perfectly syncs with the wrist coordinate of the body posture.
 
@@ -69,7 +68,7 @@ To run the simulation locally on your machine:
 **1. Clone the repository:**
 
 ```bash
-git clone [https://github.com/YourUsername/Project-AVATAR.git](https://github.com/YourUsername/Project-AVATAR.git)
+git clone [https://github.com/CODERUDRA-X/Project-AVATAR.git](https://github.com/CODERUDRA-X/Project-AVATAR.git)
 cd Project-AVATAR
 ```
 
@@ -84,10 +83,10 @@ The Python script will automatically map the local ports, establish the environm
 
 -----
 
-\<div align="center"\>
-\<p\>\<b\>Created for the Future. Designed for the Edge.\</b\>\</p\>
-\<i\>\#AiTrends2026 \#FutureTech \#ComputerVision \#ProjectAvatar\</i\>
-\</div\>
+<div align="center">
+<p><b>Created for the Future. Designed for the Edge.</b></p>
+<i>#AiTrends2026 #FutureTech #ComputerVision #ProjectAvatar</i>
+</div>
 
 ```
 
