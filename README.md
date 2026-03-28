@@ -1,5 +1,7 @@
 <div align="center">
-
+    
+![Dashboard Preview](https://raw.githubusercontent.com/CODERUDRA-X/Project-AVATAR/main/Screenshot%202026-03-28%20233028.png)
+    
 # 👁️‍🗨️ Project A.V.A.T.A.R 
 **Advanced Virtual Augmentation & Tracking Response**
 
